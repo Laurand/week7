@@ -1,21 +1,15 @@
 html{
-	background-color: #F5F6D4;
+	background-color: #F71145;
+    color: #FFFFFF;
 }
 
 /* LINK STYLES SECTIONS FOR THE WEBSITE */
-nav a  { color: #331C12; text-decoration:none;font-weight:bold;font-size: .9em; padding: 5px 22px;
+nav a  { color: #ffffff; text-decoration:none;font-weight:bold;font-size: .9em; padding: 5px 22px;
 border-radius: 5px;  }    /* unvisited links */
-nav a:visited { color: #331C12; }   /* visited links   */
+nav a:visited { color: #ffffff; }   /* visited links   */
 nav a:hover   { color: #331C12; } /* user hovers     */
-nav a:active  { color: #331C12;}   /* active links    */
-/* all body links */
-#mainContent a {  text-decoration:underline; margin: 0; padding: .5em 1em 1em 2em;}
-#mainContent a:link { color:#2c2e21;   }
-#mainContent a:visited { color:#2c2e21;   }
-#mainContent a:hover { color:#2c2e21;   }
-#mainContent a:active { color:#2c2e21;   }
-/*override the padding for the links in the aside elements */
-#mainContent aside a{ padding:0;}
+nav a:active  { color: #ffffff;}   /* active links    */
+
 #mainContent img{
   max-width: 100%;
   padding: 15px;
@@ -23,28 +17,27 @@ nav a:active  { color: #331C12;}   /* active links    */
 
 header {
   margin: 0;
-  height: 150px;
-  background: #85AB18 url(../images/interfaceImages/banner-background.png) no-repeat -200px; center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 3px solid #2c2e21;
+  background: #F71145 url(../images/interfaceImages/banner-background.png) no-repeat;
+  background-size: 100%;
+  font-size: 5px;
+  width: 100%;
+  height: 70px;
+
 }
 
 header h1 {
   margin: 0; 
-  text-align: left;
+  text-align: center;
   font-size:2em; 
-  padding:30px 0px 30px 0px; 
+  padding:30px; 
   width: 100px; 
-  color:#a7c520; 
+  color:#ffffff; 
 }
 
 nav{
 	text-align: center;
 	margin: 0; 
-	background: #85AB18;
+	background: #F71145;
 }
 nav ul{
 	width: 100%;
@@ -59,5 +52,17 @@ nav ul li{
 	text-decoration:none;
 }
 nav ul li:hover{
-  background-color: #662200;
+  background-color: #F71145;
+}
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  background-color: #ff6666;
+  padding: 5px;
+  margin: 5px;
+}
+a:hover {
+  background-color: #00ffff;
 }
